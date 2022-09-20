@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+    --blue: #0b275e;
+    --white: #f8f9fa;
+    --blue-hover: #4186e0;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage-header-section {
+    background-color: var(--blue);
+}
+
+.nav-logo {
+    width: auto;
+    height: 5rem;
+}
+
+.nav-link {
+    color: var(--white) !important;
+}
+
+.nav-link:hover {
+    color: var(--blue-hover) !important;
+}
+
+.homepage-footer-section {
+    background-color: var(--blue);  
+}
+
+.list-group-item-action {
+    color: var(--blue-hover);
+}
+
+.navbar-toggler {
+    background-color: var(--blue-hover);
+    color: var(--blue);
+}
+
+.homepage-header-background-section {
+    background-image: url(../media/hero_background.b6c8ae3f.svg);
+    height: 45rem;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(90deg, #4186e0 0, #a879f0);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: var(--white);
+}
+
+.btn-gradient:hover {
+    background-image: linear-gradient(90deg, #4186e0 0, #4186e0) !important;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.2) !important;
+    color: var(--white) !important;
+}
+
+.toggler-icon {
+    font-size: 30px;
+    color: var(--white);
+}
+
+.title-responsive {
+    font-size: calc(100% + 1.5vw + 2vh);
+}
+
+.desc-responsive {
+    font-size: calc(100% + 0.1vw + 0.1vh);
+}
+
+.content-title-responsive {
+    font-size: calc(100% + 1vw + 1.5vh);
+    color: var(--blue-hover);
+}
+
+.content-desc-responsive {
+    font-size: calc(100% + 0.5vw + 0.5vh);
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="icon" href="https://satudata.surabaya.go.id/static/media/satudata.ico" />
+    <title>sektoral</title>
+</head>
+
+<body>
+    <div class="root">
+        <section class="homepage-header-section">
+            <header class="container">
+                <div class="navbar navbar-expand-lg py-3">
+                    <a href="https://satudata.surabaya.go.id" class="align-items-center">
+                        <img class="nav-logo" src="static/media/company_logo.898a33cd.png" alt="logo satudata" />
+                    </a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="toggler-icon"><i class="bi bi-list"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link ms-3" href="https://opendata.surabaya.go.id/" target="_blank">Open
+                                    Data</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-3" href="https://dashboard.surabaya.go.id/"
+                                    target="_blank">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-3" href="https://peta.surabaya.go.id/" target="_blank">Peta
+                                    Digital</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-3" href="https://satudata.surabaya.go.id//sektoral.html"
+                                    target="_blank">Statistik Sektoral</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+        <section class="homepage-content-section">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-md-12 mx-auto">
+                        <p class="content-desc-responsive p-0 m-0 fw-semibold">Statistik Sektoral Kota Surabaya</p>
+                    </div>
+                </div>
+                <div class="row mb-5 p-3">
+                    <div class="col-lg-6 col-md-12 card py-2 mx-auto">
+                        <div class="py-1">
+                            <a class="btn btn-light w-100 border text-start" data-bs-toggle="collapse" href="#data-2021"
+                                aria-expanded="false" onclick="load_data(2021)">
+                                Data Statistik Sektoral Tahun 2021
+                            </a>
+                        </div>
+                        <div class="collapse mb-2" id="data-2021">
+                            <div class="list-group text-start py-2 px-0" id="list-file-sektoral-2021">
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <a class="btn btn-light w-100 border text-start" data-bs-toggle="collapse" href="#data-2020"
+                                aria-expanded="false" onclick="load_data(2020)">
+                                Data Statistik Sektoral Tahun 2020
+                            </a>
+                        </div>
+                        <div class="collapse mb-2" id="data-2020">
+                            <div class="list-group text-start py-2 px-0" id="list-file-sektoral-2020">
+                            </div>
+                        </div>
+                        <div class="py-1">
+                            <a class="btn btn-light w-100 border text-start" data-bs-toggle="collapse" href="#data-2019"
+                                aria-expanded="false" onclick="load_data(2019)">
+                                Data Statistik Sektoral Tahun 2019
+                            </a>
+                        </div>
+                        <div class="collapse mb-2" id="data-2019">
+                            <div class="list-group text-start py-2 px-0" id="list-file-sektoral-2019">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="homepage-footer-section">
+            <div class="container">
+                <footer class="row py-5">
+                    <div class="col-md-4 mb-3">
+                        <a href="https://satudata.surabaya.go.id" class="align-items-center">
+                            <img class="nav-logo" src="static/media/company_logo.898a33cd.png" alt="logo satudata" />
+                        </a>
+                        <p class="text-white mb-2">Jalan Jimerto no 25 - 27, Lantai 5</p>
+                        <a href="https://www.surabaya.go.id" class="nav-link mb-2" target="_blank">www.surabaya.go.id</a>
+                        <p class="text-white mb-2">(031) 5312144, psw. 292</p>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+                    <div class="col-md-2 col-6 mb-3">
+                        <p class="text-light mb-2 desc-responsive fw-semibold">Menu</p>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="https://opendata.surabaya.go.id/" class="nav-link p-0" target="_blank">
+                                    Open Data
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://dashboard.surabaya.go.id/" class="nav-link p-0" target="_blank">
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://peta.surabaya.go.id/" class="nav-link p-0" target="_blank">
+                                    Peta Digital
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://satudata.surabaya.go.id//sektoral.html" class="nav-link p-0" target="_blank">
+                                    Statistik Sektoral
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <p class="text-light mb-2 desc-responsive fw-semibold">Hubungi Kami</p>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="https://www.facebook.com/sapawargakotasurabaya" class="nav-link p-0"
+                                    target="_blank">
+                                    <span><i class="bi bi-facebook"></i></span>&nbsp;&nbsp;Sapawarga Kota Surabaya
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://www.youtube.com/user/MediaCenterPemkotSby" class="nav-link p-0"
+                                    target="_blank">
+                                    <span><i class="bi bi-youtube"></i></span>&nbsp;&nbsp;Sapawarga Kota Surabaya
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://twitter.com/SapawargaSby" class="nav-link p-0" target="_blank">
+                                    <span><i class="bi bi-twitter"></i></span>&nbsp;&nbsp;Sapawargasby
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="https://www.instagram.com/sapawargasby/" class="nav-link p-0" target="_blank">
+                                    <span><i class="bi bi-instagram"></i></span>&nbsp;&nbsp;Sapawargasby
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    </script>
+    <script type="text/javascript">
+        function load_data(tahun) {
+            switch (tahun) {
+                case 2019:
+                    $('#list-file-sektoral-2019').empty();
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68084/2019_BAB_1_Keadaan_Geografis.pdf?1657701531" target="_blank">Keadaan Geografis &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68087/2019_BAB_2_Pemerintah_dan_Pertahanan.pdf?1657701542" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68090/2019_BAB_3_Penduduk_dan_Tenaga_Kerja.pdf?1657701587" target="_blank">Penduduk dan Tenaga Kerja &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68093/2019_BAB_4_Sosial_dan_Budaya.pdf?1657701592" target="_blank">Sosial dan Budaya &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68096/2019_BAB_5_Pertanian.pdf?1657701599" target="_blank">Pertanian &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68102/2019_BAB_6_Industri.pdf?1657701618" target="_blank">Industri &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68105/2019_BAB_7_Perdagangan.pdf?1657701622" target="_blank">Perdagangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68111/2019_BAB_8_Transportasi_dan_Wisata.pdf?1657701632" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2019').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68114/2019_BAB_9_Keuangan.pdf?1657701636" target="_blank">Keuangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    break;
+                case 2020:
+                    $('#list-file-sektoral-2020').empty();
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68129/2020_BAB_1_Keadaan_Geografis.pdf?1657703583" target="_blank">Keadaan Geografis &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68132/2020_BAB_2_Pemerintah_dan_Pertahanan.pdf?1657703592" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68135/2020_BAB_3_Penduduk_dan_Tenaga_Kerja.pdf?1657703597" target="_blank">Penduduk dan Tenaga Kerja &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68138/2020_BAB_4_Sosial_Budaya.pdf?1657703609" target="_blank">Sosial dan Budaya &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68141/2020_BAB_5_Pertanian.pdf?1657703614" target="_blank">Pertanian &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68144/2020_BAB_6_Industri.pdf?1657703618" target="_blank">Industri &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68147/2020_BAB_7_Perdagangan.pdf?1657703622" target="_blank">Perdagangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68150/2020_BAB_8_Transportasi_dan_Wisata.pdf?1657703625" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2020').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68153/2020_BAB_9_Keuangan.pdf?1657703629" target="_blank">Keuangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    break;
+                case 2021:
+                    $('#list-file-sektoral-2021').empty();
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68186/2021_BAB_1_-_Keadaan_Geografis.pdf?1657705048" target="_blank">Keadaan Geografis &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68189/2021_BAB_2_-_Pemerintahan_dan_Pertahanan.pdf?1657705052" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68192/2021_BAB_3_-_Penduduk_dan_Tenaga_Kerja.pdf?1657705055" target="_blank">Penduduk dan Tenaga Kerja &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68195/2021_BAB_4_-_Sosial_Budaya.pdf?1657705064" target="_blank">Sosial dan Budaya &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68198/2021_BAB_5_-_Pertanian.pdf?1657705067" target="_blank">Pertanian &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68201/2021_BAB_6_-_Industri.pdf?1657705070" target="_blank">Industri &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68204/2021_BAB_7_-_Perdagangan.pdf?1657705073" target="_blank">Perdagangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68207/2021_BAB_8_-_Transportasi_dan_Pariwisata.pdf?1657705076" target="_blank">Pemerintah dan Pertahanan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    $('#list-file-sektoral-2021').append('<a class="list-group-item list-group-item-action" href="https://surabaya.go.id/uploads/attachments/2022/7/68210/2021_BAB_9_-_Keuangan.pdf?1657705078" target="_blank">Keuangan &nbsp; <i class="bi bi-file-earmark-arrow-down"></i></a>');
+                    break;
+                default:
+                // code block
+            }
+        }
+    </script>
+
+</body>
+
+</html>
